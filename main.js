@@ -68,7 +68,7 @@ $(window).on('scroll', function () {
 })
 
 
-// SLIDER IN STRENGTHS
+// SLIDER IN REVIEWS
 $('.clientReviews').slick({
     prevArrow: '<button id="preview"><i class="fa fa-angle-left" aria-hidden="true"></i></button>',
     nextArrow: '<button id="next"><i class="fa fa-angle-right" aria-hidden="true"></i></button>',
