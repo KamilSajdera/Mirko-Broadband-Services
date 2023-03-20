@@ -1,0 +1,365 @@
+@media only screen and (min-width: 424px) 
+{
+    .review_personal img
+    {
+        width: 25%;
+    }
+    
+    .review_data 
+    {
+        width: 65%;
+    }
+}
+
+@media only screen and (min-width: 767px) 
+{
+    .welcomePage 
+    {
+        width: 90%;
+        padding-bottom: 90px;
+    }
+
+    .welcome_title
+    {
+        font-size: 3.4em;
+    }
+
+    #offersWrapper 
+    {
+        grid-template-columns: auto auto;
+    }
+
+    #aboutUs 
+    {
+        padding: 35px;
+    }
+
+    #aboutUs h1 
+    {
+        font-size: 3.5em;
+        padding-right: 40px;
+    }
+
+    .stats-item {
+        text-align: center;
+    }
+
+    #preview {
+        left: 15px;
+    }
+
+    #next {
+        right: 15px;
+    }
+
+    .slick-list 
+    {
+        width: 85%;
+    }
+    .slick-slide
+    {
+        padding: 0 15px;
+    }
+
+    .sub_right input[type="text"] {
+        width: 78%;
+    }
+
+    .contact_left {
+        padding: 25px;
+    }
+
+    #contactData {
+        padding: 30px 50px;
+    }
+
+    #mainFooter
+    {
+        padding: 20px 45px;
+    }
+}
+
+@media only screen and (min-width: 900px) 
+{
+
+    .top_bar {
+        background-color: transparent;
+        height: 65px;
+    }
+
+    .open_main_menu {
+        display: none;
+    }
+
+    .logo {
+        margin-left: 80px;
+    }
+
+    .main_menu {
+        width: 65%;
+    }
+
+    .main_options
+    {
+        width: 100%;
+        height: 50px;
+        background: transparent;
+        transform: translateX(0%);
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        position: static;
+    }
+
+    .main_options ol 
+    {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 0.45em;
+        align-items: center;
+    }
+
+    .menu_socials {
+        margin-top: 0;
+        justify-content: start;
+    }
+
+    .nav-item ul 
+    {
+        position: absolute;
+        visibility: hidden;
+        opacity: 0;
+        display: block;
+    }
+
+    ol > li:hover > ul 
+    {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .menu_sticky 
+    {
+        height: 45px!important;
+    }
+
+    .contact_left 
+    {
+        width: 50%;
+        text-align: left;
+        padding: 5px 30px;
+    }
+
+    .contact_right
+    {
+        width: 50%;
+        display: block;
+        margin-top: 170px;
+    }
+
+    .contact_left form {
+        width: 100%;
+    }
+
+    .contact_left form input[type="text"]:first-child,
+    .contact_left form input[type="text"]:nth-child(2)
+    {
+        width: 45%;
+        display: inline-block;
+    }   
+
+  
+}
+
+@media only screen and (min-width: 1023px) 
+{
+    .top_bar {
+        height: 90px;
+    }
+
+    .main_menu {
+        width: 50%;
+    }
+
+    .logo 
+    {
+        width: 13%;
+        margin-left: 120px;
+    }
+
+    .welcome_message
+    {
+        margin: 0;
+        width: 70%;
+    }
+
+    #offersWrapper 
+    {
+        grid-template-columns: auto auto auto;
+    }
+
+    .about-left,
+    .about-right {
+        width: 50%;
+    }
+
+    .about-right img {
+        max-width: 80%;
+    }
+
+    .service-item,
+    .plans-item {
+        width: 32%;
+    }
+
+    .plans {
+        padding: 60px 2%;
+    }
+
+    .stats_left,
+    .stats_right
+    {
+        width: 48%;
+        text-align: left;
+    }
+    
+    #clientReviewWrapper
+    {
+        padding: 70px;
+    }
+
+    #subscribeWrapper {
+        padding: 60px 35px;
+    }
+
+    .sub_right, 
+    .sub_left
+    {
+        width: 48%;
+        text-align: left;
+    }
+
+    #contactWrapper 
+    {
+        padding: 40px 35px;
+    }
+
+    .contact-item
+    {
+        width: 24%;
+    }
+
+    .contact-item i
+    {
+        width: 55px;
+    }
+
+    .footer_desc,
+    .quick_links,
+    .useful_links,
+    .newsletter 
+    {
+        width: 23%;
+    }
+
+    .section-title 
+    {
+        font-size: 2em;
+    }
+    
+}
+
+
+@media only screen and (min-width: 1250px) 
+{
+    #aboutUs {
+        padding: 120px;
+    }
+
+    .about-left {
+        width: 52%;
+    }
+
+    .about-right {
+        width: 48%;
+    }
+
+    .services-items {
+        width: 95%;
+    }
+
+    .welcome_message
+    {
+        margin: 0;
+        width: 50%;
+    }
+
+    .plans {
+        padding: 60px 5%;
+    }
+
+    #statsWrapper
+    {
+        padding: 95px 30px;
+    }
+
+    .slick-list
+    {
+        width: 90%;
+    }
+
+    .slick-slide
+    {
+        padding: 0 30px;
+    }
+
+    #clientReviewWrapper .box-desc
+    {
+        padding: 25px 155px;
+    }
+
+    #subscribeWrapper {
+        padding: 60px 80px;
+    }
+
+
+    #contactWrapper
+    {
+        padding: 90px;
+    }
+
+    .contact_right
+    {
+        margin-top: 100px;
+    }
+
+    .contact_right img
+    {
+        width: 105%;
+    }
+
+    #contactData
+    {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    #mainFooter 
+    {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .newsletter form input
+    {
+        width: 75%;
+    }
+
+}
+
+@media only screen and (min-width: 1667px) 
+{
+    body {
+        font-size: 1.15em;
+    }
+}
